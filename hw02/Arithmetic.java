@@ -41,7 +41,7 @@ public class Arithmetic {
         postTaxTotalCost$=preTaxTotalCost$+totalGlassTax$+totalEnvelopeTax$+totalSockTax$;
         
         //To reduce number of decimals for tax and total
-        //Done after calcualtions to eliminate rounding error
+        //Done after calculations to eliminate rounding error
         totalSockTax$*=100;
         totalSockTax$=(int) totalSockTax$;
         totalSockTax$/=100;
