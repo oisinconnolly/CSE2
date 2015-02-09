@@ -21,7 +21,7 @@ public class Cyclometer {
         secondsPerMinute=60; //Seconds in a minute
         
         //Output variables
-        double distanceTrip1, distanceTrip2, totalDistance; //Will be calculated
+        double distanceTrip, distanceTrip2, totalDistance; //Will be calculated
         
         //Print out times (in minutes) and number of counts for both trips
         System.out.println("Trip 1 took " +(secsTrip1/secondsPerMinute)+
